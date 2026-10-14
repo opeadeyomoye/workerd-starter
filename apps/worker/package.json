@@ -1,0 +1,19 @@
+{
+  "name": "worker",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+  },
+  "dependencies": {
+    "@varlock/cloudflare-integration": "1.6.1",
+    "effect": "catalog:",
+    "hono": "catalog:",
+    "varlock": "1.22.0"
+  },
+  "devDependencies": {
+    "typescript": "catalog:",
+    "wrangler": "4.110.0"
+  }
+}
