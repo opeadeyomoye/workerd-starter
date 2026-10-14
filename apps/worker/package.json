@@ -8,12 +8,17 @@
   },
   "dependencies": {
     "@varlock/cloudflare-integration": "1.6.1",
+    "drizzle-orm": "1.0.0-rc.4",
     "effect": "catalog:",
     "hono": "catalog:",
     "varlock": "1.22.0"
   },
   "devDependencies": {
+    "@cloudflare/vitest-plugin": "1.4.0",
+    "drizzle-kit": "1.0.0-rc.4",
     "typescript": "catalog:",
-    "wrangler": "4.110.0"
+    "vitest": "4.1.11",
+    "wrangler": "4.110.0",
+    "fast-check": "4.10.2"
   }
 }
