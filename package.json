@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {},
+  "devDependencies": {
+    "lefthook": "2.2.1",
+    "oxfmt": "0.72.0"
+  },
+  "packageManager": "pnpm@12.11.2"
+}
